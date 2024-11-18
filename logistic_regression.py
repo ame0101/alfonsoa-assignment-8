@@ -1,4 +1,6 @@
 import numpy as np
+import matplotlib
+matplotlib.use('Agg')  # Use non-interactive backend for Flask compatibility
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
 from scipy.spatial.distance import cdist
